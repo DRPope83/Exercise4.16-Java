@@ -1,0 +1,28 @@
+// Daniel Pope
+// Week 2 - Exercise 4
+// Random UpperCaseLetter
+
+package exercise4;
+
+/**
+ *
+ * @author daniel
+ */
+import java.util.Scanner;
+
+public class Exercise4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    
+        Scanner input = new Scanner (System.in);
+        
+    
+    int RandomLetter = 65 + (int)(Math.random() * (91 - 65));
+    
+    System.out.print((char)(RandomLetter));
+  }
+}
